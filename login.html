@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+      background-color: #121212;
+      color: white;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+    .logo {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+    </style>
+</head>
+<body>
+    <div class="login-container">
+        <div class="logo">
+          <img src="spotipai.png" alt="Spotify Logo">
+        </div>
+        <h1>Log in to Spotify</h1>
+        
+        <div class="input-group">
+          <label for="email">Email address or username</label>
+          <input type="text" id="email" name="email" autocomplete="username">
+        </div>
+        
+        <div class="input-group">
+          <label for="password">Password</label>
+          <input type="password" id="password" name="password" autocomplete="current-password">
+        </div>
+        
+        <div class="checkbox-container">
+          <input type="checkbox" id="remember" name="remember">
+          <label for="remember">Remember me</label>
+        </div>
+        
+        <button class="login-button">
+            <a href="index.html">LOG IN</a>
+        </button>
+        
+        <a href="#" class="forgot-password">Forgot your password?</a>
+        
+        <div class="divider">
+          <span class="divider-text">OR</span>
+        </div>
+        
+        <div class="signup-text">
+          Don't have an account? <a href="#" class="signup-link">Sign up for Spotify</a>
+        </div>
+      </div>
+</body>
+</html>
